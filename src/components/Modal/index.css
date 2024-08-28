@@ -16,7 +16,7 @@
   padding: 20px;
   border-radius: 10px;
   max-width: 85%;
-  max-height: 70%;
+  max-height: 80%;
   overflow-y: auto;
   position: relative;
   z-index: 1001;
@@ -26,12 +26,12 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 24px;
+  font-size: 30px;
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--color-background);
-  background-color: var(--color-primary);
+  color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   width: 30px;
   height: 30px;
   border-radius: 50%;
