@@ -20,7 +20,7 @@ const App = () => {
   const sectionRefs = useRef<{ [key: string]: React.RefObject<HTMLElement> }>(
     {}
   );
-
+  //test test
   useEffect(() => {
     categories.forEach((category) => {
       sectionRefs.current[category] = React.createRef<HTMLElement>();
