@@ -1,11 +1,23 @@
 import { MenuItem } from "../types";
+import Mankouche from "../assets/Mankouche.png";
+import lahme from "../assets/lahme.png";
+import jebne from "../assets/jebne.png";
+import zaatarExtra from "../assets/zaatar extra.png";
+import lahmeJebne from "../assets/lahme w jebne.png";
+import zaatarJebne from "../assets/zaatar w jebne .png";
+import jebneJambon from "../assets/jebne w jambon.png";
+import classicpizza from "../assets/classicpizza.png";
+import allmeatpizza from "../assets/allmeatpizza.png";
+import peperonipizza from "../assets/peperonipizza.png";
+import margheritapizza from "../assets/margheritapizza.png";
+import salamipizza from "../assets/salamipizza.png";
 
 export const menuItems: MenuItem[] = [
   // Manakeesh
   {
     id: 1,
     name: "Zaatar",
-    image: "",
+    image: Mankouche,
     price: "$0.84",
     ingredients: "",
     category: "Manakeesh",
@@ -13,7 +25,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 2,
     name: "Zaatar Extra",
-    image: "",
+    image: zaatarExtra,
     price: "$1.20",
     ingredients: "",
     category: "Manakeesh",
@@ -21,7 +33,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 3,
     name: "Zaatar Ma3 Jebneh",
-    image: "",
+    image: zaatarJebne,
     price: "$2.50",
     ingredients: "",
     category: "Manakeesh",
@@ -29,7 +41,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 4,
     name: "Lahm b3ajin",
-    image: "",
+    image: lahme,
     price: "$2.60",
     ingredients: "",
     category: "Manakeesh",
@@ -37,7 +49,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 5,
     name: "Jebneh",
-    image: "",
+    image: jebne,
     price: "$2.90",
     ingredients: "",
     category: "Manakeesh",
@@ -45,7 +57,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 6,
     name: "Lahme Ma3 Jebneh",
-    image: "",
+    image: lahmeJebne,
     price: "$3.45",
     ingredients: "",
     category: "Manakeesh",
@@ -53,7 +65,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 7,
     name: "Jebneh W Jambon",
-    image: "",
+    image: jebneJambon,
     price: "$3.80",
     ingredients: "",
     category: "Manakeesh",
@@ -63,7 +75,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 8,
     name: "Classic Pizza",
-    image: "",
+    image: classicpizza,
     prices: { small: "$6.00", large: "$12.00" },
     ingredients: "Dough, tomato sauce, mozzarella cheese",
     category: "Pizza",
@@ -71,7 +83,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 9,
     name: "Margherita Pizza",
-    image: "",
+    image: margheritapizza,
     prices: { small: "$6.00", large: "$12.00" },
     ingredients: "Tomato sauce & Mozzarella",
     category: "Pizza",
@@ -79,7 +91,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 10,
     name: "Vegetarian Pizza",
-    image: "",
+    image: classicpizza,
     prices: { small: "$6.00", large: "$12.00" },
     ingredients: "Tomato sauce, Mozarella, Green Peppers, Mushrooms & Olives",
     category: "Pizza",
@@ -87,7 +99,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 11,
     name: "Peperoni Pizza",
-    image: "",
+    image: peperonipizza,
     prices: { small: "$7.00", large: "$14.00" },
     ingredients: "Tomato sauce, Mozzarella & Pepperoni Slices.",
     category: "Pizza",
@@ -95,7 +107,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 12,
     name: "Salami Pizza",
-    image: "",
+    image: salamipizza,
     prices: { small: "$7.00", large: "$14.00" },
     ingredients: "Tomato Sauce, Mozzarella & Salami Slices.",
     category: "Pizza",
@@ -103,7 +115,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 13,
     name: "All Meat Pizza",
-    image: "",
+    image: allmeatpizza,
     prices: { small: "$8.00", large: "$16.00" },
     ingredients:
       "Tomato sauce, Ham, Mozzarella, Salami, Peperoni, Green Peppers, Mushrooms & Olives.",
