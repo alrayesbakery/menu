@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 20px;
 }
+.categTitle {
+  color: black;
+}
 
 @media screen and (max-width: 768px) {
   .app {

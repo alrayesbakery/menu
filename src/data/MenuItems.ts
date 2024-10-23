@@ -1,11 +1,11 @@
 import { MenuItem } from "../types";
-import Mankouche from "../assets/Mankouche.png";
+import Mankouche from "../assets/mankouche.png";
 import lahme from "../assets/lahme.png";
 import jebne from "../assets/jebne.png";
-import zaatarExtra from "../assets/zaatar extra.png";
-import lahmeJebne from "../assets/lahme w jebne.png";
-import zaatarJebne from "../assets/zaatar w jebne .png";
-import jebneJambon from "../assets/jebne w jambon.png";
+import zaatarExtra from "../assets/zaatar_extra.png";
+import lahmeJebne from "../assets/lahme_w_jebne.png";
+import zaatarJebne from "../assets/zaatar_w_jebne.png";
+import jebneJambon from "../assets/jebne_w_jambon.png";
 import classicpizza from "../assets/classicpizza.png";
 import allmeatpizza from "../assets/allmeatpizza.png";
 import peperonipizza from "../assets/peperonipizza.png";
@@ -77,7 +77,8 @@ export const menuItems: MenuItem[] = [
     name: "Classic Pizza",
     image: classicpizza,
     prices: { small: "$6.00", large: "$12.00" },
-    ingredients: "Dough, tomato sauce, mozzarella cheese",
+    ingredients:
+      "Tomato Sauce, Ham,  Mozzarella, Green Peppers, Mushrooms & Olives",
     category: "Pizza",
   },
   {
@@ -127,7 +128,7 @@ export const menuItems: MenuItem[] = [
     id: 14,
     name: "Mini Zaatar",
     image: "",
-    price: "$2.00",
+    price: "$2.25",
     ingredients: "",
     category: "Mini Dozens",
   },

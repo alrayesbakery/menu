@@ -1,6 +1,8 @@
 .menu-item {
   background-color: #fdf5e6;
-  border: 2px solid var(--color-secondary);
+  border: 2px solid;
+  border-color: black;
+  /* var(--color-secondary); */
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
@@ -41,10 +43,13 @@
   margin-top: 10px;
   font-size: 1.2em;
   text-align: center;
+  color: black;
 }
 
 .menu-item .price {
   text-align: center;
   font-weight: bold;
-  color: var(--color-secondary);
+  color: black;
+
+  /* color: var(--color-secondary); */
 }

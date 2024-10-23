@@ -12,7 +12,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab, fas);
-const categories = ["Manakeesh", "Mini Dozens", "Pizza", "Drinks"];
+const categories = ["Manakeesh", "Pizza", "Mini Dozens", "Drinks"];
 
 const App = () => {
   const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null);
@@ -66,7 +66,7 @@ const App = () => {
       <main>
         {categories.map((category) => (
           <section key={category} ref={sectionRefs.current[category]}>
-            <h2>{category}</h2>
+            <h2 className="categTitle">{category}</h2>
             <MenuList
               items={menuItems.filter((item) => item.category === category)}
               onItemClick={setSelectedItem}
